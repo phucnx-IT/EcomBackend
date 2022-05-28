@@ -1,0 +1,29 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: 1234
+    oauth2:
+      client:
+        registration:
+            google:
+              client-id: 928644147999-i7d5lidnpu30adu799d4ucemmbrgk79s.apps.googleusercontent.com
+              client-secret: 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
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecom
+    username: postgres
+    password: postgres
+    
+  flyway:
+    enabled: true
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+logging:
+  level:
+    '[cybersoft.java16]': info
+          
+    
