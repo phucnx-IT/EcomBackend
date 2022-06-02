@@ -23,7 +23,7 @@ import cybersoft.java16.ecom.product.dto.ProductReturnDTO;
 import cybersoft.java16.ecom.product.dto.ProductUpdateDTO;
 import cybersoft.java16.ecom.product.service.ProductService;
 
-@CrossOrigin(origins = {"http://localhost:3000","https://backendjava16.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000","https://frontendjava16.herokuapp.com"})
 @RestController
 @RequestMapping("/api/v1/product")
 public class ProductController {

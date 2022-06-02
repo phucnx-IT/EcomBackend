@@ -18,7 +18,7 @@ import cybersoft.java16.ecom.common.helper.ResponseHelper;
 import cybersoft.java16.ecom.program.dto.ProgramDTO;
 import cybersoft.java16.ecom.program.model.ProgramAuthorization;
 import cybersoft.java16.ecom.program.service.ProgramService;
-@CrossOrigin(origins = {"http://localhost:3000","https://backendjava16.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000","https://frontendjava16.herokuapp.com"})
 @RestController
 @RequestMapping("/api/v1/program")
 public class ProgramController {

@@ -24,7 +24,7 @@ import cybersoft.java16.ecom.role.dto.UserGroupDTO;
 import cybersoft.java16.ecom.role.dto.UserGroupWithRoleDTO;
 import cybersoft.java16.ecom.role.dto.UserGroupUpdateDTO;
 import cybersoft.java16.ecom.role.service.UserGroupService;
-@CrossOrigin(origins = {"http://localhost:3000","https://backendjava16.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000","https://frontendjava16.herokuapp.com"})
 @RestController
 @RequestMapping("/api/v1/groups")
 public class UserGroupController {
